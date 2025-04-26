@@ -4,3 +4,9 @@
 10011110110
 11
 end
+8
+abaaab
+aaabbaba
+abaaaba
+bbbabbb
+end

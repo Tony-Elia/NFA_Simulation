@@ -1,8 +1,9 @@
+package Automata;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.util.Map;
-import java.util.Objects;
 
 public class NFA
 {
@@ -70,7 +71,6 @@ public class NFA
 
     public void solveProblem(BufferedReader br, BufferedWriter bw) {
         try {
-            bw.write("7\n");
             String str = br.readLine();
             while (!str.equals("end")) {
                 bw.write((isAccepted(str) ? "True\n" : "False\n"));

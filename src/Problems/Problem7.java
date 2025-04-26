@@ -1,6 +1,11 @@
+package Problems;
+
+import Automata.NFA;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.IOException;
 import java.util.Map;
+
 
 import static java.util.Map.entry;
 
@@ -24,8 +29,8 @@ public class Problem7
     );
     NFA nfa = new NFA(states,startState,finalState,alphabet,transitionTable);
 
-    public Problem7 (BufferedReader br, BufferedWriter bw)
-    {
+    public Problem7 (BufferedReader br, BufferedWriter bw) throws IOException {
+        bw.write("7\n");
         nfa.solveProblem(br,bw);
     }
 }

@@ -4,3 +4,9 @@ True
 False
 False
 x
+8
+True
+True
+True
+False
+x
