@@ -1,3 +1,4 @@
+import Problems.Problem1;
 import Problems.Problem7;
 import Problems.Problem8;
 
@@ -12,6 +13,7 @@ public class Main {
             String str;
             while ((str = br.readLine()) != null) {
                 switch (str) {
+                    case "1" -> new Problem1(br, bw);
                     case "7" -> new Problem7(br, bw);
                     case "8" -> new Problem8(br, bw);
                 }
